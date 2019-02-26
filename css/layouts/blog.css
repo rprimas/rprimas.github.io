@@ -26,7 +26,12 @@ h3 {
 #layout {
     padding: 0;
 }
-
+.avatar {
+    border-radius: 100px;
+    float: right;
+    margin-bottom: 2em;
+    margin-right: 2em;
+}
 .header {
     text-align: center;
     top: auto;
@@ -91,6 +96,7 @@ h3 {
 
 .post {
     padding-bottom: 2em;
+    max-width: 50em;
 }
 .post-title {
     font-size: 2em;
@@ -156,13 +162,18 @@ h3 {
 }
 
 @media (min-width: 48em) {
+  .avatar {
+      float: none;
+      margin-left: 0em;
+      margin-right: 0em;
+  }
     .content {
         padding: 2em 3em 0;
-        margin-left: 25%;
+        margin-left: 33%;
     }
 
     .header {
-        margin: 80% 2em 0;
+        margin: 50% 2em 0;
         text-align: right;
     }
 
