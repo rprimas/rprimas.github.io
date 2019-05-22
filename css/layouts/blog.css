@@ -93,6 +93,8 @@ h3 {
     padding: 2em 1em 0;
 }
 
+span.avoidwrap { display:inline-block; }
+
 .post {
     padding-bottom: 2em;
     max-width: 55em;
