@@ -31,6 +31,8 @@ h3 {
     float: right;
     margin-bottom: 2em;
     margin-right: 2em;
+    height: 150px;
+    width: 150px;
 }
 .header {
     text-align: center;
@@ -171,6 +173,8 @@ span.avoidwrap { display:inline-block; }
       float: none;
       margin-left: 0em;
       margin-right: 0em;
+      height: 200px;
+      width: 200px;
   }
     .content {
         padding: 2em 3em 0;
