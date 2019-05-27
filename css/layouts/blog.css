@@ -40,6 +40,10 @@ h3 {
     margin: 3em auto;
 }
 
+span.avoidwrap {
+    display:inline-block;
+}
+
 .sidebar {
     background: rgb(61, 79, 93);
     color: #fff;
