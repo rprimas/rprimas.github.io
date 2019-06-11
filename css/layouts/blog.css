@@ -23,9 +23,10 @@ h3 {
     height: auto;
 }
 
-#layout {
+.layout {
     padding: 0;
 }
+
 .avatar {
     border-radius: 100px;
     float: right;
@@ -34,6 +35,12 @@ h3 {
     height: 150px;
     width: 150px;
 }
+
+.grey {
+    color: #999999;
+    font-style: italic;
+}
+
 .header {
     text-align: center;
     top: auto;
