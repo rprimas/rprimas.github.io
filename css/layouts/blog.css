@@ -202,7 +202,7 @@ span.avoidwrap { display:inline-block; }
       width: 200px;
   }
     .content {
-        padding: 2em 3em 0;
+        padding: 2em 3em;
         margin-left: 33%;
     }
 
