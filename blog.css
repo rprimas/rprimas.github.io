@@ -12,8 +12,16 @@ margin: 0em;
 min-width: 25em;
 }
 
+h1 {
+font-size: 2em;
+}
+
+h2 {
+font-size: 1.5em;
+}
+
 h3 {
-font-weight: 100;
+font-size: 1.25em;
 }
 
 ul {
@@ -50,7 +58,6 @@ font-style: italic;
 
 .header {
 font-family: "Roboto", sans-serif;
-overflow: auto;
 }
 
 .header_left {
@@ -115,9 +122,22 @@ height: 200px;
 width: 200px;
 }
 
-.brand-title,
-.brand-tagline {
-margin: 0em;
+.brand-title {
+margin: 0em 0em 1em 1em;
+text-transform: uppercase;
+}
+
+.brand-tagline{
+font-weight: 300;
+color: rgb(176, 202, 219);
+}
+
+h2.brand-tagline{
+margin: 1em 0em 0em 1.33em;
+}
+
+h3.brand-tagline{
+margin: 1em 0em 0em 1.6em;
 }
 
 .content {
@@ -125,7 +145,6 @@ margin-left: 33%;
 }
 
 .header {
-/* margin: 15em 2em 0em 0em; */
 margin-right: 2em;
 text-align: right;
 }
@@ -133,7 +152,6 @@ text-align: right;
 .header_left {
 float:none;
 width:100%;
-padding:0;
 }
 
 .header_middle {
@@ -151,7 +169,6 @@ position: fixed;
 top: 0;
 bottom: 0;
 width: 33%;
-vertical-align: middle;
 }
 
 } /* @media (min-width: 48em) */
