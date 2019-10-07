@@ -58,6 +58,7 @@ font-style: italic;
 
 .header {
 font-family: "Roboto", sans-serif;
+overflow: auto;
 }
 
 .header_left {
