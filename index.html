@@ -13,8 +13,8 @@
 /*          Default styles           */
 /*************************************/
 a {
-text-decoration: none;
 color: rgb(61, 146, 201);
+text-decoration: none;
 }
 a:hover, a:focus {
 text-decoration: underline;
@@ -34,8 +34,8 @@ font-size: 1em;
 }
 sup{
 font-size: 0.83em;
-vertical-align: super;
 line-height: 0;
+vertical-align: super;
 }
 ul {
 padding-left: 1em;
@@ -103,31 +103,40 @@ margin-bottom: 3em;
 max-width: 55em;
 }
 .post-header {
-font-family: "Roboto", sans-serif;
 color: #444;
+font-family: "Roboto", sans-serif;
 line-height: 2em;
 }
 .sidebar {
-position: static;
 background: rgb(61, 79, 93);
 color: #fff;
+position: static;
 width: 100%;
 }
 /*************************************/
 /*          MIN-WIDTH: 48em          */
 /*************************************/
 @media (min-width: 48em) {
+h1 {
+font-size: 2em;
+}
+h2 {
+font-size: 1.5em;
+}
 h2.brand-tagline{
 margin: 1em 0 0 1.33em;
+}
+h3 {
+font-size: 1.25em;
 }
 h3.brand-tagline{
 margin: 1em 0 0 1.6em;
 }
 .avatar {
 float: none;
+height: 200px;
 margin-left: 0;
 margin-right: 0;
-height: 200px;
 width: 200px;
 }
 .brand-title {
@@ -135,28 +144,19 @@ margin: 0 0 1em 1em;
 text-transform: uppercase;
 }
 .brand-tagline{
-font-weight: 300;
 color: rgb(176, 202, 219);
+font-weight: 300;
 }
 .content {
 margin-left: 33%;
 }
-h1 {
-font-size: 2em;
-}
-h2 {
-font-size: 1.5em;
-}
-h3 {
-font-size: 1.25em;
-}
 .header {
 margin-right: 2em;
-text-align: right;
 position: absolute;
+right: 0;
+text-align: right;
 top: 50%;
 transform: translateY(-50%);
-right: 0;
 }
 .header_left {
 float:none;
@@ -171,9 +171,9 @@ margin-top:2em;
 width:100%;
 }
 .sidebar {
+bottom: 0;
 position: fixed;
 top: 0;
-bottom: 0;
 width: 33%;
 }
 } /* @media (min-width: 48em) */
