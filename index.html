@@ -47,7 +47,7 @@ padding-left: 1rem;
 }
 .avatar {
 float: none;
-margin: 0 0 0 2rem;
+margin: 0 2rem 0 2rem;
 border-radius: 5rem;
 height: 10rem;
 width: 10rem;
@@ -103,11 +103,10 @@ padding: 0;
 }
 .posts {
 font-family: 'Roboto Slab', serif;
-margin: 2rem;
+max-width: 48rem;
 }
 .post {
-margin-bottom: 3rem;
-max-width: 100%;
+margin: 1rem 2rem 1rem 2rem;
 color: rgb(14, 43, 65);
 }
 .post-header {
@@ -132,13 +131,12 @@ height: 12rem;
 width: 12rem;
 }
 .brand-title, .brand-tagline {
-margin-left: 2rem;
+margin: 1rem 2rem 1rem 2rem;
 }
 .content {
 margin-left: calc(50% - 8rem);
 }
 .header {
-margin-right: 2rem;
 position: absolute;
 right: 0;
 text-align: right;
@@ -157,8 +155,8 @@ float:none;
 margin-top:2rem;
 width:100%;
 }
-.post{
-max-width: 30rem;
+.posts {
+max-width: 56rem;
 }
 .sidebar {
 bottom: 0;
@@ -171,16 +169,8 @@ width: calc(50% - 8rem);
 /*          MIN-WIDTH: 76em          */
 /*************************************/
 @media (min-width: 76rem) {
-.avatar {
-border-radius: 7rem;
-height: 14rem;
-width: 14rem;
-}
-.content {
+ .content {
 margin-left: calc(50% - 16rem);
-}
-.post{
-max-width: 48rem;
 }
 .sidebar {
 width: calc(50% - 16rem);
@@ -229,6 +219,7 @@ width: calc(50% - 16rem);
 <li>Office: Inffeldgasse 16a, 8010 Graz, Austria</li>
 <li>Email: <a href="mailto:rprimas@gmail.com">rprimas@gmail.com</a></li>
 <li>Twitter: <a href="https://twitter.com/RobertPrimas">@RobertPrimas</a></li>
+<li>Matrix: @rprimas:matrix.org</li>
 <li><a href="https://scholar.google.at/citations?user=OZh2_vIAAAAJ&hl=en">Google Scholar</a></li>
 <li><a href="https://github.com/rprimas">Github</a></li>
 </ul>
@@ -280,6 +271,11 @@ Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption (<a href="h
 </header>
 <ul>
 <li>
+2020/06/05:
+<span class="avoidwrap"><b>Single-Trace Attacks on Keccak</b></span><br>
+<span class="grey">@ Remote Lunchtalk, Radboud University, Netherlands</span>
+</li>
+<li>
 2019/09/20:
 <span class="avoidwrap"><b>Side-Channel-Lab: Physical Attacks</b></span><br>
 <span class="grey">@ Security Week, Graz University of Technology, Austria</span>
@@ -321,6 +317,7 @@ Embedded Security (<a href="https://teaching.iaik.tugraz.at/embsec/start">course
 <h2>Program committee member</h2>
 </header>
 <ul>
+<li>2020: <a href="https://fdtc.deib.polimi.it/FDTC20/index.html">FDTC</a></li>
 <li>2019: <a href="http://conferenze.dei.polimi.it/FDTC19/index.html">FDTC</a></li>
 </ul>
 </section>
@@ -330,7 +327,7 @@ Embedded Security (<a href="https://teaching.iaik.tugraz.at/embsec/start">course
 <h2>Conference refereeing</h2>
 </header>
 <ul>
-<li>2020: <span class="avoidwrap">EUROCRYPT, CHES</span></li>
+<li>2020: <span class="avoidwrap">CHES, CRYPTO, EUROCRYPT, FDTC, USENIX</span></li>
 <li>2019: <span class="avoidwrap">AFRICACRYPT, CHES, FDTC</span></li>
 <li>2018: <span class="avoidwrap">AFRICACRYPT, CHES, EuroS&P</span></li>
 </ul>
@@ -349,6 +346,8 @@ IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (T
 </li>
 </ul>
 </section>
+
+<br>
 
 </div> <!-- #posts -->
 </div> <!-- #content -->
